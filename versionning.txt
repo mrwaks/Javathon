@@ -1,5 +1,0 @@
-VERSIONNING JAVATHON'S PACKAGE:
-
-Javathon V1.0.0:
-
-    - Adding Random partial class of python's random library.
