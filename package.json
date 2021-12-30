@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"@types/jest": "^27.0.3",
+		"@types/node": "^17.0.5",
+		"jest": "^27.4.5"
+	},
+	"scripts": {
+		"test": "jest ./dist",
+		"built": "pnpm i || npm i; tsc; echo '\\n\\x1b[32mSuccessfull built !\\x1b[0m' || echo '\\x1b[31mFailed built\\x1b[0m'"
+	},
+	"author": "mrwaks",
+	"version": "1.0.0"
+}
